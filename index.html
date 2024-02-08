@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1.0,user-scalable=0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container">
+                <div class="header__logo">DudeShape</div>
+                <ul class="sidebar">
+                    <li class="hide" onclick=closeSidebar()><a href="#"><svg class="hide"
+                                xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24">
+                                <path
+                                    d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                            </svg></a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <nav>
+                    <ul class="menu-h">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="img-block">
+                    <img src="img/search.png" class="search" alt="search">
+                    <img src="img/menu.png" class="menu" alt="menu" onclick=showSidebar()>
+                    <li class="open" onclick=showSidebar()><a href="#" class="open"><svg class="open"
+                                xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 -960 960 960" width="30">
+                                <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                            </svg></a>
+                </div>
+            </div>
+
+        </header>
+        <main class="main">
+            <div class="intro">
+                <div class="intro__container">
+                    <div class="intro__left">
+                        <img src="img/main-image.jpg" alt="main-image">
+                    </div>
+                    <div class="intro__right right-intro">
+                        <div class="right-intro__intro">We Help You Make Modern Furniture</div>
+                        <div class="right-intro__subtext">All of our furniture uses the best materials and choices for
+                            our customers.All of our furniture uses the best materials </div>
+                        <button class="right-intro__button">Explore More</button>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="companies">
+                <div class="companies__container">
+                    <div class="companies__title">Trusted by 20,000+ companies</div>
+                    <div class="companies__img">
+                        <div class="companies__item">
+                            <img src="img/sponsor-1.png" alt="">
+                        </div>
+                        <div class="companies__item">
+                            <img src="img/sponsor-2.png" alt="">
+                        </div>
+                        <div class="companies__item">
+                            <img src="img/sponsor-3.png" alt="">
+                        </div>
+                        <div class="companies__item">
+                            <img src="img/sponsor-4.png" alt="">
+                        </div>
+                        <div class="companies__item">
+                            <img src="img/sponsor-5.png" alt="">
+                        </div>
+                        <div class="companies__item">
+                            <img src="img/sponsor-6.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+        <section class="about-us">
+            <div class="about-us__container">
+                <div class="about-us__img">
+                    <img src="img/about-us-image.jpg" alt="">
+                    <div class="block"></div>
+                </div>
+                <div class="about-us__text">
+                    <div class="about-us__title">About Us</div>
+                    <div class="about-us__subtext">All of our furniture uses the best materials and choices for our
+                        customers.All of our furniture uses the best materials </div>
+                    <div class="about-us__advantages adv">
+                        <div class="adv__item">
+                            <div class="adv__img-item">
+                                <img src="img/about-us-1.png" class="adv__img">
+                            </div>
+                            <div class="adv__text">
+                                <div class="adv__title">Best Quality</div>
+                                <div class="adv__sub">All of our furniture uses the best materials and choices</div>
+                            </div>
+                        </div>
+                        <div class="adv__item">
+                            <div class="adv__img-item">
+                                <img src="img/about-us-2.png" class="adv__img">
+                            </div>
+                            <div class="adv__text">
+                                <div class="adv__title">100% Secure</div>
+                                <div class="adv__sub">All of our furniture uses the best materials and choices</div>
+                            </div>
+                        </div>
+                        <div class="adv__item">
+                            <div class="adv__img-item">
+                                <img src="img/about-us-3.png" class="adv__img">
+                            </div>
+                            <div class="adv__text">
+                                <div class="adv__title">Free Shpping</div>
+                                <div class="adv__sub">All of our furniture uses the best materials and choices</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="popular-furniture">
+            <div class="popular-furniture__container">
+                <div class="popular-furniture__text">
+                    <div class="popular-furniture__title">Our Popular Furniture</div>
+                    <div class="popular-furniture__sub">All of our furniture uses the best materials and choices for our
+                        customers.All of our furniture uses the best materials and choices for our customers.</div>
+                </div>
+                <div class="popular-furniture__cards card">
+                    <div class="card__body">
+                        <img src="img/furnitur-1.jpg" alt="">
+                        <div class="card__wrap">
+                            <div class="elem1">
+                                <div class="card__title">
+                                    <div class="card__t">White Swan Chair </div>
+                                    <div class="card__icons">
+                                        <div class="gruond gruond1"><img src="img/lke.png" alt=""></div>
+                                        <div class="gruond gruond2"><img src="img/share.png" alt=""></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="elem2">
+                                <div class="card__price">
+                                    <div class="price-card">$40</div>
+                                    <button class="card__button">Buy Now</button>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="card__body">
+                        <img src="img/furnitur-1.jpg" alt="">
+                        <div class="card__wrap">
+                            <div class="elem1">
+                                <div class="card__title">
+                                    <div class="card__t">White Swan Chair </div>
+                                    <div class="card__icons">
+                                        <div class="gruond gruond1"><img src="img/lke.png" alt=""></div>
+                                        <div class="gruond gruond2"><img src="img/share.png" alt=""></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="elem2">
+                                <div class="card__price">
+                                    <div class="price-card">$40</div>
+                                    <button class="card__button">Buy Now</button>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="card__body">
+                        <img src="img/furnitur-1.jpg" alt="">
+                        <div class="card__wrap">
+                            <div class="elem1">
+                                <div class="card__title">
+                                    <div class="card__t">White Swan Chair </div>
+                                    <div class="card__icons">
+                                        <div class="gruond gruond1"><img src="img/lke.png" alt=""></div>
+                                        <div class="gruond gruond2"><img src="img/share.png" alt=""></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="elem2">
+                                <div class="card__price">
+                                    <div class="price-card">$40</div>
+                                    <button class="card__button">Buy Now</button>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+        </section>
+        <section class="form">
+            <div class="form__container">
+                <div class="form__title">Subscribe to get the latest news about us</div>
+                <div class="form__sub">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor
+                    incididunt ut labore at dolore.</div>
+                <form class="content-1__form">
+                    <input type="text" id="my-input" placeholder="Enter your email">
+                    <button class="button1">Register</button>
+                </form>
+            </div>
+        </section>
+        <footer class="footer2">
+            <div class="footer2__top">
+                <div class="footer2__left">
+                    <div class="footer2__logo">
+                        <img src="img/Frame.svg" alt="#" class="logo__image">
+                        <div class="logo__text">DudeShape</div>
+                    </div>
+                    <div class="footer2__text">Lorem ipsum dolor sit amet, conse
+                        ctetur adipiscing elit, sed eiusmod tempor incididunt ut labore .</div>
+                </div>
+                <div class="footer2__right">
+                    <div class="links">
+                        <div class="link__title">Take a tour</div>
+                        <a href="#" class="link">О компании</a>
+                        <a href="" class="link">Каталог</a>
+                        <a href="" class="link">Доставка</a>
+                        <a href="" class="link">Оплата</a>
+                    </div>
+                    <div class="categories">
+                        <div class="categor__text">Our company</div>
+                        <a href="#" class="categor">Мужская одежда</a>
+                        <a href="#" class="categor">Женская одежда</a>
+                        <a href="#" class="categor">Детская одежда</a>
+                        <a href="#" class="categor">Для животных</a>
+                    </div>
+                    <div class="useful__links">
+                        <div class="use__link-text">ПОЛЕЗНЫЕ ССЫЛКИ</div>
+                        <a href="" class="use__link">Таблица размеров</a>
+                        <a href="" class="use__link">Блог о моде</a>
+                        <a href="" class="use__link">Наша миссия</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </footer>
+        <script>
+            function showSidebar() {
+                const sidebar = document.querySelector('.sidebar');
+                sidebar.style.display = 'flex';
+            }
+            function closeSidebar() {
+                const sidebar = document.querySelector('.sidebar');
+                sidebar.style.display = 'none';
+            }
+        </script>
+    </div>
+</body>
+
+</html>
